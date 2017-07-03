@@ -1,6 +1,10 @@
 header {
   @extend %display-flex-justify-center;
+  position: fixed;
+  top: 0;
   flex: 0 0 auto;
+  width: 100%;
+  z-index: 1;
   background: yellow;
 }
 

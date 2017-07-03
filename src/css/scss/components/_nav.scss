@@ -3,6 +3,10 @@ section {
     display: flex;
     flex: 1 0 auto;
     & nav {
+      position: fixed;
+      left: 0;
+      top: $header-height;
+      bottom: 0;
       min-width: 200px;
       background: rosybrown;
       & ul {

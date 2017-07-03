@@ -34,13 +34,19 @@ html, body, #body {
     width: 100%; }
 
 footer {
+  position: fixed;
+  bottom: 0;
   flex: 0 0 auto;
   height: 40px;
   width: 100%;
   background: palevioletred; }
 
 header {
+  position: fixed;
+  top: 0;
   flex: 0 0 auto;
+  width: 100%;
+  z-index: 1;
   background: yellow; }
 
 .ball-clip-rotate-multiple > div {
@@ -50,10 +56,19 @@ header {
   .ball-clip-rotate-multiple > div:last-child {
     border-color: #000 transparent; }
 
+main {
+  padding-bottom: 40px;
+  padding-left: 200px;
+  padding-top: 38px; }
+
 section.main-section {
   display: flex;
   flex: 1 0 auto; }
   section.main-section nav {
+    position: fixed;
+    left: 0;
+    top: 38px;
+    bottom: 0;
     min-width: 200px;
     background: rosybrown; }
     section.main-section nav ul {
