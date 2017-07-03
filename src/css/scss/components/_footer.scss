@@ -1,0 +1,7 @@
+footer {
+  @extend %display-flex-justify-center;
+  flex: 0 0 auto;
+  height: $footer-height;
+  width: 100%;
+  background: palevioletred;
+}

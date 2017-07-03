@@ -1,0 +1,64 @@
+footer, header {
+  display: flex;
+  justify-content: center; }
+
+section.main-section nav ul a {
+  text-decoration: none;
+  color: #000; }
+
+html, body, #body {
+  height: 100%; }
+
+#body {
+  display: flex;
+  flex-direction: column; }
+
+.cards-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+
+.video-card {
+  height: 330px;
+  width: 430px; }
+  .video-card a {
+    width: 100%; }
+    .video-card a img {
+      width: 100%; }
+
+.card {
+  min-width: 300px;
+  margin: 5px !important; }
+  .card img {
+    width: 100%; }
+
+footer {
+  flex: 0 0 auto;
+  height: 40px;
+  width: 100%;
+  background: palevioletred; }
+
+header {
+  flex: 0 0 auto;
+  background: yellow; }
+
+.ball-clip-rotate-multiple > div {
+  border-left-color: #000;
+  border-right-color: #000;
+  margin: 20px 0 0 20px; }
+  .ball-clip-rotate-multiple > div:last-child {
+    border-color: #000 transparent; }
+
+section.main-section {
+  display: flex;
+  flex: 1 0 auto; }
+  section.main-section nav {
+    min-width: 200px;
+    background: rosybrown; }
+    section.main-section nav ul {
+      list-style: none;
+      padding-left: 0; }
+  section.main-section main {
+    background: greenyellow;
+    flex-grow: 1; }

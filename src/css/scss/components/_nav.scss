@@ -1,0 +1,21 @@
+section {
+  &.main-section {
+    display: flex;
+    flex: 1 0 auto;
+    & nav {
+      min-width: 200px;
+      background: rosybrown;
+      & ul {
+        list-style: none;
+        padding-left: 0;
+        & a {
+          @extend  %reset-anchor
+        }
+      }
+    }
+    & main {
+      background: greenyellow;
+      flex-grow: 1;
+    }
+  }
+}

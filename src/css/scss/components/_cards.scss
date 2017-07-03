@@ -1,0 +1,24 @@
+.cards-inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.video-card {
+  height: 330px;
+  width: 430px;
+  a {
+    width: 100%;
+    img {
+      width: 100%;
+    }
+  }
+}
+.card {
+  min-width: 300px;
+  margin: 5px!important;
+  img {
+    width: 100%;
+  }
+}

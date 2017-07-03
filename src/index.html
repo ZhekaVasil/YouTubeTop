@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/vendor/bootstrap.css">
+  <link rel="stylesheet" href="css/vendor/loaders.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="body">
+  <header id="header"></header>
+  <section class="main-section">
+    <nav id="nav"></nav>
+    <main id="main"></main>
+  </section>
+  <footer id="footer"></footer>
+</div>
+
+
+<!-- Vendor JS -->
+<script src="js/vendor/jquery-3.2.1.min.js"></script>
+<script src="js/vendor/tether.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/vendor/underscore-min.js"></script>
+<script src="js/vendor/backbone-min.js"></script>
+<script src="js/vendor/backbone.marionette.min.js"></script>
+<script src="js/vendor/handlebars-v4.0.10.js"></script>
+<script src="js/vendor/jquery.lazyload.js"></script>
+<!--<script src="js/vendor/handlebars.runtime-v4.0.10.js"></script>-->
+
+<!-- build:js js/build.js -->
+<script src="js/app.js"></script>
+<script src="js/ytt.js"></script>
+<script src="js/templates.js"></script>
+<script src="js/partials_templates.js"></script>
+<script src="js/router.js"></script>
+<script src="js/helpers.js"></script>
+
+<script src="js/models/VideoModel.js"></script>
+
+<script src="js/collections/VideoCollection.js"></script>
+
+<script src="js/views/page.js"></script>
+<script src="js/views/header.js"></script>
+<script src="js/views/footer.js"></script>
+<script src="js/views/nav.js"></script>
+<script src="js/views/loading.js"></script>
+<script src="js/views/pages/views.js"></script>
+<script src="js/views/pages/likes.js"></script>
+<script src="js/views/pages/trends.js"></script>
+<!-- endbuild -->
+
+<script>
+  $(document).ready(function () {
+    ytt.application = app.application();
+    ytt.application.start();
+  });
+</script>
+</body>
+</html>
