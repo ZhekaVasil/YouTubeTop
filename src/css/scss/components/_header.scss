@@ -4,7 +4,9 @@ header {
   top: 0;
   flex: 0 0 auto;
   width: 100%;
+  height: $header-height;
   z-index: 1;
-  background: yellow;
+  background: $basic-color;
+  color: $basic-text-color;
 }
 

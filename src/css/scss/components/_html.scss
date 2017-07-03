@@ -1,6 +1,9 @@
 html, body, #body {
   height: 100%;
 }
+html {
+  overflow-y: scroll;
+}
 #body {
   display: flex;
   flex-direction: column;

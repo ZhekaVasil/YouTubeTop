@@ -6,3 +6,19 @@
   text-decoration: none;
   color: $basic-color;
 }
+
+%border-bottom-red {
+  border-bottom: 2px solid red;
+}
+%border-bottom-gray {
+  border-bottom: 2px solid gray;
+}
+%border-bottom-white {
+  border-bottom: 2px solid white;
+}
+%border-bottom-transparent {
+  border-bottom: 2px solid transparent;
+}
+
+
+

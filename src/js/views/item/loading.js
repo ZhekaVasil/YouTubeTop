@@ -1,5 +1,6 @@
 /*global Backbone*/
 /*global Marionette*/
+/*global Handlebars*/
 app.views.loading = Marionette.ItemView.extend({
-  template: ytt.templates.loading
+  template: Handlebars.partials.loading
 });

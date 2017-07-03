@@ -1,0 +1,25 @@
+.sub-nav {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  & .nav-item {
+    @extend %border-bottom-transparent;
+    &.active {
+      @extend %border-bottom-red;
+    }
+    &:hover:not(.active) {
+      @extend %border-bottom-white;
+    }
+  }
+  & .nav a {
+    cursor: pointer;
+    color: white;
+    &:hover {
+      color: white;
+      box-sizing: content-box;
+    }
+    &.active {
+      background: none;
+    }
+  }
+}
